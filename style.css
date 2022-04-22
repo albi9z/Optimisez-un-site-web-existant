@@ -112,11 +112,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: #ffffffe6;
+    border-color: rgba(255, 255, 255, 0.902);
 }
 
 .d-bloc .divider-h span {
-    border-color: #ffffff33;
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .d-bloc .a-btn,
@@ -154,52 +154,53 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: #fff;
-    border-color: #fff;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255, 5);
 }
 
 .d-bloc .panel {
-    color: #00000080;
+    color: rgba(0, 0, 0, 0.502);
 }
 
 .d-bloc .panel button:hover {
-    color: #000000b3;
+    color: rgba(0, 0, 0, ) (100% / 0.702);
 }
 
 .d-bloc .panel icon {
-    border-color: #000000b3;
+    border-color: rgba(0, 0, 0, 0.702);
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: #0000001a;
+    border-color: rgba(0, 0, 0, 0.102);
 }
 
 .d-bloc .panel .a-btn {
-    color: #00000099;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover {
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .btn-wire,
-. .d-bloc .panel .btn-wire:hover {
-    border-color: rgba(0, 0, 0, 0.302) color: rgba(0, 0, 0, 0.702)
+.d-bloc .panel .btn-wire:hover {
+    border-color: rgba(0, 0, 0, 0.302);
+    color: rgba(0, 0, 0, 0.702);
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, 0.502)
+    color: rgba(0, 0, 0, 0.502);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, 0.702) 100% / 0.702;
+    color: rgba(0, 0, 0, 0.702) (100% / 0.702);
 }
 
 .l-bloc .icon-round,
@@ -207,12 +208,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: #000000b3;
+    border-color: hsla(0, 0%, 0%, 0.702);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: #0000001a;
+    border-color: rgba(0, 0, 0, 0.102);
 }
 
 .d-bloc .panel .a-btn,
@@ -230,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: #00000099;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -366,8 +367,9 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(0, -50%);
+        -webkit-transform: translateY(0, -50%);
+        transform: translateY(0, -50%);
     }
 
     .nav>li .dropdown-menu a,
@@ -556,8 +558,9 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -937,9 +940,9 @@ h4 {
 
     .site-navigation {
         position: inherit;
-        transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        transform: none;
     }
 
     .nav>li {
@@ -1055,6 +1058,14 @@ h4 {
 
     .close-lightbox {
         display: inline-block;
+    }
+
+    .font-size {
+        font: 200px;
+    }
+
+    .font-size-1 {
+        font: 00px;
     }
 
     .blocsapp-device-iphone5 {
