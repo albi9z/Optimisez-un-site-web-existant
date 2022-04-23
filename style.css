@@ -168,7 +168,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, ) (100% / 0.702);
+    color: rgba(0, 0, 0, ) 100%, 0.702;
 }
 
 .d-bloc .panel icon {
@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, 0.702) (100% / 0.702);
+    color: rgba(0, 0, 0, 0.702) 100% / 0.702;
 }
 
 .l-bloc .icon-round,

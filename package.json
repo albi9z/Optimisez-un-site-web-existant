@@ -1,7 +1,7 @@
 {
   "name": "starting-website-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "P_4_audite",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
