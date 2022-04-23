@@ -7721,7 +7721,7 @@ button.close {
     bottom: -10px;
     content: " ";
     border-right-width: 0;
-    border-left-color: #fff
+    border-left-color: #ffff;
 }
 
 .carousel {
