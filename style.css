@@ -713,9 +713,14 @@ p {
     margin: auto auto auto auto;
 }
 
+.social_1 {
+    display: flex;
+
+}
+
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1em;
 }
 
 h3 {
