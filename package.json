@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
-    "prod": "webapack"
+    "prod": "webapack",
+    "sass": "sass style.css style.min.css --style compressed -w",
+    "bootstap": "uglifyjs asset/js/bootstrap.js -o asset/js/bootstrap.min.js"
   },
   "author": "",
   "license": "ISC",
