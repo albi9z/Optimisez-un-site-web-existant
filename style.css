@@ -362,6 +362,11 @@ a:hover {
     z-index: 2;
 }
 
+.font-size-8 {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1064,11 +1069,6 @@ h4 {
     .font-size {
         font: 200px;
     }
-
-    .font-size-8 {
-        font-size: 150px;
-    }
-
 
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
