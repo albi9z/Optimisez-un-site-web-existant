@@ -367,6 +367,10 @@ a:hover {
     line-height: 1.1;
 }
 
+.col-sm13-p {
+    font-size: 50px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
