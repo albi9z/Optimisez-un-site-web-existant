@@ -1,4 +1,4 @@
 User-agent:*
-disallow:
++disallow:
 
 sitemap: https://albi9z.github.io/Optimisez-un-site-web-existant.github.io/
