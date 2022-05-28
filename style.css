@@ -719,6 +719,7 @@ p {
 }
 
 .social {
+
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -1091,10 +1092,18 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .social {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .social {
+        font-size: 15px;
     }
 }
